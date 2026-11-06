@@ -316,7 +316,7 @@
   function render() {
     // Masthead
     const mh = PRESS.masthead || {};
-    $("#tagline").textContent = mh.tagline || "Morning edition from Boyd's Interest Journal";
+    $("#tagline").textContent = mh.tagline || "Morning edition from Alex's Interest Journal";
     $("#mastDate").textContent = fmtDate(mh.date || mh.mtime);
     $("#editionLabel").textContent = "Morning Edition";
     $("#volLabel").textContent = "Sources " + ((PRESS.counts || {}).sources || 0);

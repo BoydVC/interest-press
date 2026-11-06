@@ -470,7 +470,7 @@ def main() -> None:
         "generated": et_now_iso(),
         "masthead": {
             "title": "Interest Press",
-            "tagline": "Morning edition from Boyd's Interest Journal",
+            "tagline": "Morning edition from Alex's Interest Journal",
             "date": newest_date,
             "mtime": newest_mtime,
         },
